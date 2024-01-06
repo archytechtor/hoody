@@ -464,7 +464,7 @@ class State {
     let speed = 0;
 
     if (movingRight) {
-      speed = speedUp ? 2 : 1;
+      speed = speedUp ? 6 : 3;
     }
 
     if (dashing) {
