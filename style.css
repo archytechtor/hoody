@@ -1,0 +1,36 @@
+body {
+  background: #1e1f22;
+}
+
+#canvas {
+  position: absolute;
+  border: 3px solid #a9acb7;
+  width: 1280px;
+  height: 720px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+#player_idle,
+#player_walk,
+#player_run,
+#player_sit,
+#player_jump,
+#player_fight,
+#player_dash,
+#player_die,
+#slime,
+#bat,
+#boom,
+#fire,
+#layer1,
+#layer2,
+#layer3,
+#layer4,
+#layer5,
+#heart,
+#mana,
+#stamina {
+  display: none;
+}
