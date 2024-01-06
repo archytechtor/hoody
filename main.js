@@ -859,7 +859,7 @@ class Fighting extends State {
 
   enter = () => {
     this.game.player.image = document.getElementById('player_fight');
-    this.game.player.width = 256;
+    this.game.player.width = 156;
     this.game.player.height = 192;
     this.game.player.frameX = 0;
     this.game.player.frameY = 0;
